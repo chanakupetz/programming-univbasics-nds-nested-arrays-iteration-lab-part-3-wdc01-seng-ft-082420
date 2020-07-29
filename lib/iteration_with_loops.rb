@@ -16,5 +16,5 @@ while row_index < src[row_index].count do
 end
   row_index += 1
 end
-words
+join_nested_strings[words]
 end
