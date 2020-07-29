@@ -4,7 +4,7 @@ def join_nested_strings(src)
 mixed_data = Array.new
 row_index = 0
 while row_index < src[row_index].count do
-
+  element_index = 0
   while element_index < src[row_index].count do
     if element_index.class == String
         mixed_data << element_index
